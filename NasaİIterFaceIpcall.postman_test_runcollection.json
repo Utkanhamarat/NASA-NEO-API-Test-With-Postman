@@ -1,0 +1,84 @@
+{
+	"id": "b922b3b8-8e4c-4d22-a60d-ef11eff9c8dc",
+	"name": "NasaİIterFaceIpcall",
+	"timestamp": "2024-12-02T22:50:42.467Z",
+	"collection_id": "38880535-d2b352f0-da97-41ca-bb88-ad6bd8d14449",
+	"folder_id": 0,
+	"environment_id": "38880535-873636dd-0061-412c-948f-a9be40755e03",
+	"totalPass": 2,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-12-02T22:50:38.912Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "3bc87470-595e-4152-94bf-a06026ab1bbb",
+			"name": "nasaarayüzcagrilari",
+			"url": "https://api.nasa.gov/planetary/apod?api_key=l4FufOC2zX3KmI8XVKhADk0Mc0xTeUwac78wmOha",
+			"time": 1123,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Basarili code is 200": true
+			},
+			"testPassFailCounts": {
+				"Basarili code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1123
+			],
+			"allTests": [
+				{
+					"Basarili code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e3770cf2-f60c-48d7-be2a-f2648953efb9",
+			"name": "dünyayayakınobjeler",
+			"url": "https://api.nasa.gov/neo/rest/v1/feed?start_date=2024-8-10&end_date=2024-8-17&api_key=l4FufOC2zX3KmI8XVKhADk0Mc0xTeUwac78wmOha",
+			"time": 1191,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Basarili code is 200": true
+			},
+			"testPassFailCounts": {
+				"Basarili code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1191
+			],
+			"allTests": [
+				{
+					"Basarili code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2314,
+	"collection": {
+		"requests": [
+			{
+				"id": "3bc87470-595e-4152-94bf-a06026ab1bbb",
+				"method": "GET"
+			},
+			{
+				"id": "e3770cf2-f60c-48d7-be2a-f2648953efb9",
+				"method": "GET"
+			}
+		]
+	}
+}
